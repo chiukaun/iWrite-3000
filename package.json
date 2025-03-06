@@ -1,0 +1,23 @@
+{
+  "name": "line-voice-to-text-bot",
+  "version": "1.0.0",
+  "description": "LINE Bot that converts voice messages to text",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.7.0",
+    "axios": "^1.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "form-data": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
